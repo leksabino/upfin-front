@@ -1,0 +1,121 @@
+.page {
+  min-height: 100vh;
+  background: #0b0f14;
+  color: #eaeef5;
+  padding: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.plan {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #1f2937;
+}
+
+.balanceCard {
+  background: linear-gradient(135deg, #121826, #1a2132);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.balanceLabel {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.balanceValue {
+  font-size: 32px;
+  font-weight: 800;
+  margin-top: 6px;
+  color: #5eead4;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.btn {
+  border: none;
+  border-radius: 12px;
+  padding: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.credit {
+  background: #16a34a;
+  color: #052e16;
+}
+
+.debit {
+  background: #ef4444;
+  color: #450a0a;
+}
+
+.sectionTitle {
+  margin: 20px 0 8px;
+  font-weight: 700;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  background: #121826;
+  border-radius: 12px;
+  padding: 12px 14px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.itemLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemDesc {
+  font-weight: 600;
+}
+
+.itemDate {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.amount {
+  font-weight: 800;
+}
+
+.amountCredit {
+  color: #5eead4;
+}
+
+.amountDebit {
+  color: #fca5a5;
+}

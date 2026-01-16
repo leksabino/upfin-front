@@ -1,0 +1,79 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.balanceCard {
+  background: #111216;
+  border-radius: 16px;
+  padding: 20px;
+
+  span {
+    font-size: 14px;
+    color: #a1a1aa;
+  }
+
+  strong {
+    display: block;
+    margin-top: 8px;
+    font-size: 28px;
+  }
+}
+
+.stats {
+  display: flex;
+}
+
+.stat {
+  background: #111216;
+  border-radius: 16px;
+  padding: 16px;
+  flex: 1;
+  text-align: center;
+
+  span {
+    font-size: 13px;
+    color: #a1a1aa;
+  }
+
+  strong {
+    display: block;
+    margin-top: 6px;
+    font-size: 20px;
+  }
+}
+
+.transactions {
+  h2 {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #1c1d22;
+
+  span {
+    font-size: 12px;
+    color: #a1a1aa;
+  }
+}
+
+.credit {
+  color: #1db954;
+  font-weight: 600;
+}
+
+.debit {
+  color: #e5533d;
+  font-weight: 600;
+}
+
+.empty {
+  color: #a1a1aa;
+  font-size: 14px;
+}

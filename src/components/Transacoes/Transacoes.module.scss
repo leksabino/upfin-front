@@ -1,0 +1,40 @@
+.list {
+  margin-top: 24px;
+
+  h3 {
+    font-size: 14px;
+    margin-bottom: 12px;
+    opacity: 0.8;
+  }
+}
+
+.item {
+  background: #020617;
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  span {
+    display: block;
+    font-size: 11px;
+    opacity: 0.6;
+  }
+}
+
+.right {
+  text-align: right;
+}
+
+.status {
+  color: #22c55e;
+  font-size: 11px;
+}
+
+.empty {
+  margin-top: 16px;
+  font-size: 12px;
+  opacity: 0.6;
+}

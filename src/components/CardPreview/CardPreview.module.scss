@@ -1,0 +1,72 @@
+.card {
+  border-radius: 20px;
+  padding: 16px;
+  height: 180px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background:
+    radial-gradient(700px 300px at 20% 10%, rgba(139,92,246,0.35), transparent 60%),
+    radial-gradient(700px 300px at 80% 30%, rgba(34,197,94,0.20), transparent 60%),
+    linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+  box-shadow: 0 20px 70px rgba(0,0,0,0.55);
+  position: relative;
+  overflow: hidden;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.badge {
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.chip {
+  width: 44px;
+  height: 34px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.25), rgba(255,255,255,0.06));
+  border: 1px solid rgba(255,255,255,0.14);
+}
+
+.mid {
+  margin-top: 44px;
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  font-weight: 700;
+}
+
+.dots {
+  color: rgba(232,238,246,0.75);
+  letter-spacing: 0.18em;
+}
+
+.tail {
+  font-size: 18px;
+}
+
+.bottom {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(232,238,246,0.78);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.type {
+  opacity: 0.9;
+}
